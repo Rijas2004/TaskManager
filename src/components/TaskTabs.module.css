@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  border-radius: 4px;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #333;
+  }
+}
+
+.activeTab {
+  color: #edf0f3 !important;
+  border-bottom: 2px solid rgb(138, 255, 138) !important;
+  border-radius: 0px;
+}

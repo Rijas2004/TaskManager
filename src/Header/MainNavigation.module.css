@@ -1,0 +1,31 @@
+h1 {
+  color: burlywood;
+}
+
+.header {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  /* position: sticky;
+  top: 0px;
+  z-index: 1000; */
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.list a:hover,
+.list a.active {
+  color: bisque;
+}

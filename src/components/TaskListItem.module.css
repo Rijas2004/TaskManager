@@ -1,0 +1,23 @@
+.dueDate {
+  font-size: small;
+}
+
+.statusBtn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-size: 12px;
+}
+
+.statusBtn button {
+  cursor: pointer;
+  font: inherit;
+  background: transparent;
+  border: none;
+  color: rgb(138, 255, 138);
+  padding: 0;
+}
+
+.statusBtn .btnNegative {
+  color: #fa7b7b;
+}
