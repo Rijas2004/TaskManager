@@ -16,3 +16,9 @@
   background-color: rgba(0, 0, 0, 0.75);
   z-index: 9;
 }
+
+@media (min-width: 319px) and (max-width: 481px) {
+  .modal {
+    padding: 10px;
+  }
+}

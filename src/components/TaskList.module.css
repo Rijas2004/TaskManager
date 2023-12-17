@@ -1,5 +1,5 @@
 h2 {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   color: aliceblue;
 }
@@ -25,4 +25,10 @@ h2 {
   border: none;
   color: rgb(138, 255, 138);
   padding: 0;
+}
+
+@media (min-width: 319px) and (max-width: 481px) {
+  .taskCard {
+    font-size: 90%;
+  }
 }

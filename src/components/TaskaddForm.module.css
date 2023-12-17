@@ -97,12 +97,17 @@
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 3px;
 }
 
-@media (max-width: 420px) {
+::placeholder {
+  font-size: 15px;
+}
+
+@media (min-width: 319px) and (max-width: 481px) {
   .btn {
     height: 48px;
   }
-}
 
-::placeholder {
-  font-size: 15px;
+  .formContainer {
+    padding: 10px;
+    margin-top: 10%;
+  }
 }
